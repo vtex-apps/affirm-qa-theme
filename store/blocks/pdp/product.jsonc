@@ -103,6 +103,7 @@
       "product-rating-summary",
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
+      "product-teaser.product.affirm",
       "product-installments",
       "product-separator",
       "product-identifier.product",
@@ -136,7 +137,9 @@
       "marginTop": 4,
       "marginBottom": 7
     },
-    "children": ["add-to-cart-button"]
+    "children": [
+      "add-to-cart-button"
+    ]
   },
 
   "flex-layout.row#product-availability": {
@@ -147,6 +150,7 @@
       "paddingTop": 7
     },
     "children": [
+      "product-teaser.summary.affirm",
       "flex-layout.col#stack",
       "flex-layout.col#right-col-availability"
     ]
