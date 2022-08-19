@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
-  "name": "store-theme",
-  "version": "5.1.0",
+  "name": "affirm-qa-theme",
+  "version": "0.0.1",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -62,10 +62,8 @@
     "vtex.product-specifications": "1.x",
     "vtex.tab-layout": "0.x",
     "vtex.condition-layout": "2.x",
-    "vtex.css-handles": "1.x"
-  },
-  "peerDependencies": {
-    "vtex.reviews-and-ratings": "3.x"
+    "vtex.css-handles": "1.x",
+    "vtex.affirm-components": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
